@@ -84,6 +84,16 @@
     color: #333;
 }
 
+#todo-list li img {
+    width: 20px;
+    cursor: pointer;
+}
+
+#todo-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
 #todo-list li button {
     background: #ff4d4d;
     color: #fff;
