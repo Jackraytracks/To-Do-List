@@ -18,15 +18,15 @@ addButton.addEventListener("click", () => {
 
     // Add unchecked icon
     const statusIcon = document.createElement("img");
-    statusIcon.src = "images/unchecked.png";
+    statusIcon.src = "unchecked.png";
     statusIcon.alt = "unchecked";
     statusIcon.addEventListener("click", () => {
         if (listItem.classList.contains("completed")) {
             listItem.classList.remove("completed");
-            statusIcon.src = "images/unchecked.png";
+            statusIcon.src = "unchecked.png";
         } else {
             listItem.classList.add("completed");
-            statusIcon.src = "images/checked.png";
+            statusIcon.src = "checked.png";
         }
     });
 
